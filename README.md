@@ -1,7 +1,5 @@
 # gulp-style-aliases
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-
 [Gulp](http://gulpjs.com/) plugin that lets you create custom aliases for CSS,less and SASS properties with an `@alias` rule.
 Supports @import '...' and url('...').
 
