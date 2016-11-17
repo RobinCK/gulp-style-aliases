@@ -27,7 +27,7 @@ module.exports = function(aliases){
 
         for (var style in obj.stylesheet.rules) {
             if (obj.stylesheet.rules[style].type === 'import') {
-                obj.stylesheet.rules[style].import = '"' + resolveAlias(obj.stylesheet.rules[style].import.toString().replace (/(^")|("$)/g, ''), file.path) + '"';
+                obj.stylesheet.rules[style].import = '"' + resolveAlias(obj.stylesheet.rules[style].import.toString().replace (/(^"|')(.+?)("|'$)/, '$2'), file.path) + '"';
             }
         }
 
