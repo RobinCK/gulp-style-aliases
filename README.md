@@ -37,7 +37,7 @@ body {
 
 ###### Output
 ```less
-@import "path/to/your/folder";
+@import "path/to/your/folder/css/user.less";
 
 body {
   background: #9e9e9e;
