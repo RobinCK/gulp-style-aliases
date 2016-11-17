@@ -1,0 +1,36 @@
+{
+  "name": "gulp-style-aliases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobinCK/gulp-style-aliases.git"
+  },
+  "author": "Igor Ognichenko <ognichenko.igor@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobinCK/gulp-style-aliases/issues"
+  },
+  "homepage": "https://github.com/RobinCK/gulp-style-aliases#readme",
+  "keywords": [
+    "aliases",
+    "style",
+    "gulp",
+    "css",
+    "less",
+    "sass",
+    "url",
+    "import"
+  ],
+  "dependencies": {
+    "css": "^2.2.1",
+    "path": "^0.12.7",
+    "rework": "^1.0.1",
+    "rework-plugin-url": "^1.1.0",
+    "through2": "^2.0.1"
+  }
+}
