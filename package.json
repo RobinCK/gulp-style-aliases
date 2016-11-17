@@ -1,7 +1,7 @@
 {
   "name": "gulp-style-aliases",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gulp plugin that lets you create custom aliases for CSS,less and SASS properties with an @alias rule",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
