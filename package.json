@@ -1,6 +1,6 @@
 {
   "name": "gulp-style-aliases",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Gulp plugin that lets you create custom aliases for CSS,less and SASS properties with an @alias rule",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,7 @@
     "import"
   ],
   "dependencies": {
-    "css": "^2.2.1",
-    "path": "^0.12.7",
-    "rework": "^1.0.1",
-    "rework-plugin-url": "^1.1.0",
+    "css-aliases": "^1.0.0",
     "through2": "^2.0.1"
   }
 }

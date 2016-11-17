@@ -20,13 +20,13 @@ var webPath = '.', outputPath = 'dest';
 gulp.task('default', () =>
 	gulp.src('src/*.{css|less|scss}')
 		.pipe(aliases({
-		    "@aliasName": 'path/to/your/folder'
+		    "@aliasName": "path/to/your/folder"
 		}))
 		.pipe(gulp.dest(outputPath))
 );
 ```
 
-###### Input
+A javascript file before compilation
 ```less
 @import "@aliasName/css/user.less";
 
@@ -35,7 +35,7 @@ body {
 }
 ```
 
-###### Output
+will become:
 ```less
 @import "path/to/your/folder/css/user.less";
 
