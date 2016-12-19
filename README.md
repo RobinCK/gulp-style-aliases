@@ -3,6 +3,13 @@
 [Gulp](http://gulpjs.com/) plugin that lets you create custom aliases for CSS,less and SASS properties with an `@alias` rule.
 Supports @import '...' and url('...').
 
+[![Build Status](https://travis-ci.org/shonny-ua/gulp-rev-collector.svg)](https://travis-ci.org/robinck/gulp-style-aliases)
+[![Dependencies](https://david-dm.org/robinck/gulp-style-aliases.svg)](https://david-dm.org/robinck/gulp-style-aliases)
+[![devDependencies](https://david-dm.org/robinck/gulp-style-aliases/dev-status.svg)](https://david-dm.org/robinck/gulp-style-aliases#info=devDependencies&view=table)
+[![NPM version](https://badge.fury.io/js/gulp-style-aliases.svg)](http://badge.fury.io/js/gulp-style-aliases)
+
+[![NPM](https://nodei.co/npm/gulp-style-aliases.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/gulp-style-aliases/)
+
 ## Install
 
 ```
