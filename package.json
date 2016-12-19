@@ -1,6 +1,6 @@
 {
   "name": "gulp-style-aliases",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Gulp plugin that lets you create custom aliases for CSS,less and SASS properties with an @alias rule",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/RobinCK/gulp-style-aliases.git"
   },
   "author": "Igor Ognichenko <ognichenko.igor@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/RobinCK/gulp-style-aliases/issues"
   },
@@ -20,6 +20,7 @@
     "aliases",
     "style",
     "gulp",
+    "gulpplugin",
     "css",
     "less",
     "sass",
