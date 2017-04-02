@@ -10,7 +10,7 @@ module.exports = function (aliases) {
     }
 
     if (file.isStream()) {
-      return this.emit('error', PluginError('gulp-style-aliases', 'Streaming not supported'));
+      return this.emit('error', PluginError('gulp-style-aliases', 'Streaming not supported')); // eslint-disable-line
     }
 
     file.contents = new Buffer(cssAliasses(file.contents.toString(), file.path, aliases));

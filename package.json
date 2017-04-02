@@ -4,7 +4,10 @@
   "description": "Gulp plugin that lets you create custom aliases for CSS,less and SASS properties with an @alias rule",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/eslint .",
+    "patch": "npm version patch && git push origin master --follow-tags && npm publish",
+    "minor": "npm version minor && git push origin master --follow-tags && npm publish",
+    "major": "npm version major && git push origin master --follow-tags && npm publish"
   },
   "repository": {
     "type": "git",
@@ -28,7 +31,10 @@
     "import"
   ],
   "dependencies": {
-    "css-aliases": "^1.1.2",
+    "css-aliases": "^1.1.4",
     "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0"
   }
 }

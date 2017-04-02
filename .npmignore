@@ -1,5 +1,6 @@
 .editorconfig
 .gitignore
 .npmignore
+.eslintrc.json
 .idea/
 .git/
