@@ -31,7 +31,7 @@
     "import"
   ],
   "dependencies": {
-    "css-aliases": "^1.1.7",
+    "css-aliases": "^1.1.8",
     "through2": "^2.0.1"
   },
   "devDependencies": {
